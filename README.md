@@ -4,6 +4,10 @@ RedDemand is a predictive modeling project developed for a redBus hackathon host
 
 The project uses a stacked ensemble of LightGBM and XGBoost models, combined with feature engineering built around route, timing, and demand patterns.
 
+## Author
+
+Arjya Dey
+
 ## Problem Statement
 
 Forecast the `final_seatcount` for each journey based on historical travel and demand signals such as:
@@ -84,7 +88,3 @@ The final output file contains:
 ## Notes
 
 This repository is a hackathon-style solution focused on forecasting demand and building a practical prediction pipeline. It is intended for experimentation, learning, and competitive modeling rather than production deployment.
-
-## License
-
-This project is currently provided without an explicit license file.
